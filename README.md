@@ -1,14 +1,11 @@
-# Praktikum Lab 8 – PHP & Database (CRUD Data Barang)
-
 ## Identitas Mahasiswa
 
 | Keterangan      | Data             |
 | --------------- | ---------------- |
-| **Nama**        | [Isi Nama Kamu]  |
-| **Kelas**       | [Isi Kelas]      |
-| **NIM**         | [Isi NIM]        |
+| **Nama**        | Muhammad Al Fajri|
+| **Kelas**       | I251D            |
+| **NIM**         | 312510353        |
 | **Mata Kuliah** | Pemrograman Web  |
-| **Dosen**       | [Isi Nama Dosen] |
 
 ## Deskripsi
 
@@ -48,9 +45,8 @@ Apache digunakan sebagai web server untuk menjalankan file PHP, sedangkan MySQL 
 
 Pastikan Apache dan MySQL sudah berstatus **Running** sebelum menjalankan project melalui browser.
 
-**Screenshot:**
+<img width="493" height="314" alt="Screenshot 2026-11-19 140143" src="https://github.com/user-attachments/assets/ea281c42-1a3a-4814-9fec-1ee584e27f23" />
 
-> Tambahkan screenshot XAMPP Apache dan MySQL yang sudah Running di sini.
 
 ---
 
@@ -101,9 +97,7 @@ SELECT * FROM data_barang;
 - `INSERT INTO` digunakan untuk memasukkan data awal.
 - `SELECT * FROM data_barang` digunakan untuk melihat seluruh isi tabel.
 
-**Screenshot:**
-
-> Tambahkan screenshot database `latihan1` dan tabel `data_barang` dari phpMyAdmin di sini.
+<img width="641" height="126" alt="Screenshot 2026-11-19 140417" src="https://github.com/user-attachments/assets/e1c6d28c-3c2a-407e-b13d-60f58cac0cb0" />
 
 ---
 
@@ -123,9 +117,7 @@ Project kemudian dapat dijalankan melalui:
 http://localhost/lab8_php_database/
 ```
 
-**Screenshot:**
-
-> Tambahkan screenshot folder project di dalam `htdocs`.
+<img width="699" height="163" alt="image" src="https://github.com/user-attachments/assets/a90ce7be-aad8-4e7c-8846-4951d977fb0d" />
 
 ---
 
@@ -163,9 +155,8 @@ if ($conn == false)
 - `mysqli_connect()` digunakan untuk membuat koneksi ke database.
 - Jika koneksi gagal, program akan menampilkan pesan error dan dihentikan.
 
-**Screenshot:**
+<img width="291" height="88" alt="Screenshot 2026-11-19 110055" src="https://github.com/user-attachments/assets/63ce36ca-6371-4cb8-a468-2e04ce4251a3" />
 
-> Tambahkan screenshot ketika `koneksi.php` berhasil dijalankan.
 
 ---
 
@@ -211,9 +202,8 @@ Hapus
 
 Link **Tambah Barang** digunakan untuk menuju halaman `tambah.php`.
 
-**Screenshot:**
+<img width="959" height="400" alt="Screenshot 2026-11-19 131314" src="https://github.com/user-attachments/assets/7e1a84a5-0b88-4c11-9fa3-5e5ad684e8e4" />
 
-> Tambahkan screenshot tampilan `index.php` yang menampilkan Data Barang.
 
 ---
 
@@ -248,33 +238,30 @@ Setelah berhasil disimpan, halaman diarahkan kembali ke:
 index.php
 ```
 
-**Screenshot:**
+<img width="294" height="247" alt="Screenshot 2026-11-19 132315" src="https://github.com/user-attachments/assets/331bf15f-6240-44ab-86b1-0b94c13915b2" />
 
-> Tambahkan screenshot halaman `Tambah Barang`.
 
 ### Contoh Pengisian
 
 Contoh data yang dapat dimasukkan:
 
 ```text
-Nama Barang : Laptop ASUS
-Kategori    : Komputer
-Harga Jual  : 7000000
-Harga Beli  : 6000000
-Stok        : 3
+Nama Barang : Realme
+Kategori    : Hand Phone
+Harga Jual  : 2000000
+Harga Beli  : 2500000
+Stok        : 5
 ```
 
-**Screenshot:**
+<img width="302" height="298" alt="Screenshot 2026-11-19 133429" src="https://github.com/user-attachments/assets/99538b06-a257-4988-bcdb-40f6c4aaeb4d" />
 
-> Tambahkan screenshot form yang sudah diisi sebelum menekan Simpan.
 
 ### Hasil Setelah Disimpan
 
 Setelah tombol **Simpan** ditekan, data baru akan muncul pada tabel `Data Barang`.
 
-**Screenshot:**
+<img width="825" height="445" alt="Screenshot 2026-11-19 133510" src="https://github.com/user-attachments/assets/b1b2f7ad-f757-4675-99e9-5323169c0d0b" />
 
-> Tambahkan screenshot data baru yang sudah muncul di `index.php`.
 
 ---
 
@@ -307,27 +294,32 @@ WHERE id_barang = ...
 
 Setelah proses selesai, halaman kembali ke `index.php`.
 
-**Screenshot:**
+<img width="430" height="306" alt="Screenshot 2026-11-19 132604" src="https://github.com/user-attachments/assets/69e50289-96a2-4544-a6ca-1e9a2c47ed54" />
 
-> Tambahkan screenshot halaman Ubah Barang sebelum diedit.
 
 ### Contoh Perubahan Data
 
 Contohnya, mengubah:
 
 ```text
-Stok : 3
+Nama Barang : Realme
+Kategori    : Hand Phone
+Stok : 5
 ```
+<img width="808" height="417" alt="Screenshot 2026-11-19 141543" src="https://github.com/user-attachments/assets/2fbd0d2e-ef37-4a41-90bd-1282d1ca9f22" />
+
 
 menjadi:
 
 ```text
-Stok : 5
+Nama Barang : Realme
+Kategori    : Hand Phone
+Stok : 3
 ```
 
-**Screenshot:**
+<img width="314" height="307" alt="Screenshot 2026-11-19 141339" src="https://github.com/user-attachments/assets/ef6d29b3-c3e6-491d-8851-92aedb5e3539" />
+<img width="830" height="488" alt="Screenshot 2026-11-19 141354" src="https://github.com/user-attachments/assets/a0193b59-14e8-4530-8527-f2852355a47a" />
 
-> Tambahkan screenshot setelah data berhasil diubah.
 
 ---
 
@@ -359,9 +351,8 @@ header('location: index.php');
 - Query `DELETE` digunakan untuk menghapus data.
 - Setelah data dihapus, halaman diarahkan kembali ke `index.php`.
 
-**Screenshot:**
+<img width="830" height="488" alt="Screenshot 2026-11-19 141354" src="https://github.com/user-attachments/assets/8dbadadc-d58c-42a5-a922-04983f12a168" />
 
-> Tambahkan screenshot sebelum data dihapus.
 
 ### Konfirmasi Hapus
 
@@ -372,26 +363,15 @@ Pengguna dapat memilih:
 ```text
 OK
 ```
+<img width="851" height="473" alt="Screenshot 2026-11-19 141722" src="https://github.com/user-attachments/assets/6656b33d-bd08-4ea2-8f81-67278a835940" />
 
-untuk melanjutkan penghapusan atau:
-
-```text
-Batal
-```
-
-untuk membatalkan.
-
-**Screenshot:**
-
-> Tambahkan screenshot kotak konfirmasi penghapusan.
 
 ### Hasil Setelah Dihapus
 
 Setelah penghapusan berhasil, data tersebut tidak lagi muncul pada tabel `Data Barang`.
 
-**Screenshot:**
+<img width="839" height="436" alt="Screenshot 2026-11-19 141747" src="https://github.com/user-attachments/assets/55919032-ef74-476e-91bb-ab44b69bbd30" />
 
-> Tambahkan screenshot hasil setelah data berhasil dihapus.
 
 ---
 
